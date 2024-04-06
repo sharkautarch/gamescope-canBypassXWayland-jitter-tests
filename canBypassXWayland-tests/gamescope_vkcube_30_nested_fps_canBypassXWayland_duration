@@ -1,0 +1,4288 @@
+vulkan: selecting physical device 'Intel(R) Graphics (ADL GT2)': queue family 0 (general queue family 0)
+vulkan: physical device supports DRM format modifiers
+wlserver: [backend/headless/backend.c:67] Creating headless backend
+vulkan: supported DRM formats for sampling usage:
+vulkan:   AR24 (0x34325241)
+vulkan:   XR24 (0x34325258)
+vulkan:   AB24 (0x34324241)
+vulkan:   XB24 (0x34324258)
+vulkan:   RG16 (0x36314752)
+vulkan:   NV12 (0x3231564E)
+vulkan:   AB4H (0x48344241)
+vulkan:   XB4H (0x48344258)
+vulkan:   AB48 (0x38344241)
+vulkan:   XB48 (0x38344258)
+vulkan:   AB30 (0x30334241)
+vulkan:   XB30 (0x30334258)
+vulkan:   AR30 (0x30335241)
+vulkan:   XR30 (0x30335258)
+vulkan: Creating Gamescope nested swapchain with format 44 and colorspace 0
+wlserver: Running compositor on wayland display 'gamescope-0'
+wlserver: [backend/headless/backend.c:17] Starting headless backend
+wlserver: [xwayland/server.c:108] Starting Xwayland on :1
+wlserver: [types/wlr_compositor.c:692] New wlr_surface 0x5ff7e76827a0 (res 0x5ff7e7678830)
+wlserver: [xwayland/server.c:273] Xserver is ready
+pipewire: stream state changed: connecting
+pipewire: stream state changed: paused
+pipewire: stream available on node ID: 74
+vblank: Using timerfd.
+vulkan: Creating Gamescope nested swapchain with format 44 and colorspace 0
+pipewire: renegotiating stream params (size: 1280x720)
+ATTENTION: default value of option vk_khr_present_wait overridden by environment.
+Selected GPU 0: Intel(R) Graphics (ADL GT2), type: IntegratedGpu
+[Gamescope WSI] Creating Gamescope surface: xid: 0x400000
+[Gamescope WSI] Atom of T was wrong type. Expected XCB_ATOM_CARDINAL.
+wlserver: [types/wlr_compositor.c:692] New wlr_surface 0x5ff7e764bf00 (res 0x5ff7e767a840)
+wlserver: [types/wlr_compositor.c:692] New wlr_surface 0x5ff7e764d700 (res 0x5ff7e767a960)
+[Gamescope WSI] Made gamescope surface for xid: 0x400000
+[Gamescope WSI] Surface state:
+  steam app id:                  0
+  window xid:                    0x400000
+  wayland surface res id:        5
+  layer client flags:            0x0
+  server hdr output enabled:     false
+  hdr formats exposed to client: false
+xwm: got the same buffer committed twice, ignoring.
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+[Gamescope WSI] Creating swapchain for xid: 0x400000 - minImageCount: 3 - format: VK_FORMAT_B8G8R8A8_UNORM - colorspace: VK_COLOR_SPACE_SRGB_NONLINEAR_KHR - flip: true
+[Gamescope WSI] Created swapchain for xid: 0x400000 - imageCount: 3
+canBypassXWayland(): 0.24ms
+canBypassXWayland(): 1.22ms
+[Gamescope WSI] Swapchain recieved new refresh cycle: 33.33ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.24ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 1.76ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 1.47ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.74ms
+
+
+
+
+canBypassXWayland() average duration:0.75ms,          	
+min duration jitter:-1.35ms,          	
+max duration jitter:1.25ms
+
+
+
+
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.98ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.25ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.60ms
+
+
+
+
+canBypassXWayland() average duration:0.67ms,          	
+min duration jitter:-0.54ms,          	
+max duration jitter:0.60ms
+
+
+
+
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.27ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.34ms
+
+
+
+
+canBypassXWayland() average duration:0.67ms,          	
+min duration jitter:-0.36ms,          	
+max duration jitter:0.51ms
+
+
+
+
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.79ms
+
+
+
+
+canBypassXWayland() average duration:0.75ms,          	
+min duration jitter:-0.51ms,          	
+max duration jitter:0.50ms
+
+
+
+
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.39ms
+
+
+
+
+canBypassXWayland() average duration:0.78ms,          	
+min duration jitter:-0.21ms,          	
+max duration jitter:0.18ms
+
+
+
+
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.96ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 1.07ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.88ms
+
+
+
+
+canBypassXWayland() average duration:0.75ms,          	
+min duration jitter:-0.25ms,          	
+max duration jitter:0.53ms
+
+
+
+
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 1.70ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.87ms
+
+
+
+
+canBypassXWayland() average duration:0.82ms,          	
+min duration jitter:-0.85ms,          	
+max duration jitter:0.82ms
+
+
+
+
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.97ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.40ms
+
+
+
+
+canBypassXWayland() average duration:0.78ms,          	
+min duration jitter:-0.25ms,          	
+max duration jitter:0.19ms
+
+
+
+
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 1.01ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.91ms
+
+
+
+
+canBypassXWayland() average duration:0.77ms,          	
+min duration jitter:-0.38ms,          	
+max duration jitter:0.39ms
+
+
+
+
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.31ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.35ms
+
+
+
+
+canBypassXWayland() average duration:0.70ms,          	
+min duration jitter:-0.25ms,          	
+max duration jitter:0.07ms
+
+
+
+
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.56ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.55ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.60ms
+
+
+
+
+canBypassXWayland() average duration:0.64ms,          	
+min duration jitter:-0.27ms,          	
+max duration jitter:0.30ms
+
+
+
+
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.56ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.45ms
+
+
+
+
+canBypassXWayland() average duration:0.67ms,          	
+min duration jitter:-0.25ms,          	
+max duration jitter:0.39ms
+
+
+
+
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.62ms
+
+
+
+
+canBypassXWayland() average duration:0.62ms,          	
+min duration jitter:-0.34ms,          	
+max duration jitter:0.41ms
+
+
+
+
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.55ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.99ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+
+
+
+
+canBypassXWayland() average duration:0.72ms,          	
+min duration jitter:-0.28ms,          	
+max duration jitter:0.35ms
+
+
+
+
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.85ms
+
+
+
+
+canBypassXWayland() average duration:0.84ms,          	
+min duration jitter:-0.15ms,          	
+max duration jitter:0.15ms
+
+
+
+
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.81ms
+
+
+
+
+canBypassXWayland() average duration:0.81ms,          	
+min duration jitter:-0.05ms,          	
+max duration jitter:0.06ms
+
+
+
+
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+
+
+
+
+canBypassXWayland() average duration:0.85ms,          	
+min duration jitter:-0.11ms,          	
+max duration jitter:0.09ms
+
+
+
+
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.28ms
+canBypassXWayland(): 0.27ms
+canBypassXWayland(): 0.29ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.27ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.72ms
+
+
+
+
+canBypassXWayland() average duration:0.69ms,          	
+min duration jitter:-0.49ms,          	
+max duration jitter:0.50ms
+
+
+
+
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.17ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.90ms
+
+
+
+
+canBypassXWayland() average duration:0.76ms,          	
+min duration jitter:-0.54ms,          	
+max duration jitter:0.70ms
+
+
+
+
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.79ms
+
+
+
+
+canBypassXWayland() average duration:0.76ms,          	
+min duration jitter:-0.37ms,          	
+max duration jitter:0.40ms
+
+
+
+
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.55ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.79ms
+
+
+
+
+canBypassXWayland() average duration:0.68ms,          	
+min duration jitter:-0.46ms,          	
+max duration jitter:0.56ms
+
+
+
+
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+
+
+
+
+canBypassXWayland() average duration:0.86ms,          	
+min duration jitter:-0.10ms,          	
+max duration jitter:0.08ms
+
+
+
+
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.81ms
+
+
+
+
+canBypassXWayland() average duration:0.81ms,          	
+min duration jitter:-0.19ms,          	
+max duration jitter:0.22ms
+
+
+
+
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.77ms
+
+
+
+
+canBypassXWayland() average duration:0.82ms,          	
+min duration jitter:-0.07ms,          	
+max duration jitter:0.08ms
+
+
+
+
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.87ms
+
+
+
+
+canBypassXWayland() average duration:0.72ms,          	
+min duration jitter:-0.26ms,          	
+max duration jitter:0.31ms
+
+
+
+
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.27ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.97ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.98ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+
+
+
+
+canBypassXWayland() average duration:0.74ms,          	
+min duration jitter:-0.34ms,          	
+max duration jitter:0.46ms
+
+
+
+
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.55ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.89ms
+
+
+
+
+canBypassXWayland() average duration:0.78ms,          	
+min duration jitter:-0.28ms,          	
+max duration jitter:0.37ms
+
+
+
+
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.96ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.97ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+
+
+
+
+canBypassXWayland() average duration:0.88ms,          	
+min duration jitter:-0.09ms,          	
+max duration jitter:0.08ms
+
+
+
+
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+
+
+
+
+canBypassXWayland() average duration:0.82ms,          	
+min duration jitter:-0.07ms,          	
+max duration jitter:0.08ms
+
+
+
+
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.99ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.97ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.86ms
+
+
+
+
+canBypassXWayland() average duration:0.86ms,          	
+min duration jitter:-0.10ms,          	
+max duration jitter:0.12ms
+
+
+
+
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+
+
+
+
+canBypassXWayland() average duration:0.84ms,          	
+min duration jitter:-0.04ms,          	
+max duration jitter:0.05ms
+
+
+
+
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.96ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.96ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.81ms
+
+
+
+
+canBypassXWayland() average duration:0.89ms,          	
+min duration jitter:-0.11ms,          	
+max duration jitter:0.14ms
+
+
+
+
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.84ms
+
+
+
+
+canBypassXWayland() average duration:0.84ms,          	
+min duration jitter:-0.06ms,          	
+max duration jitter:0.07ms
+
+
+
+
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.63ms
+
+
+
+
+canBypassXWayland() average duration:0.65ms,          	
+min duration jitter:-0.50ms,          	
+max duration jitter:0.48ms
+
+
+
+
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 1.07ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.96ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+
+
+
+
+canBypassXWayland() average duration:0.74ms,          	
+min duration jitter:-0.57ms,          	
+max duration jitter:0.63ms
+
+
+
+
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 1.05ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.65ms
+
+
+
+
+canBypassXWayland() average duration:0.79ms,          	
+min duration jitter:-0.25ms,          	
+max duration jitter:0.24ms
+
+
+
+
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.28ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.55ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.86ms
+
+
+
+
+canBypassXWayland() average duration:0.70ms,          	
+min duration jitter:-0.31ms,          	
+max duration jitter:0.40ms
+
+
+
+
+canBypassXWayland(): 1.71ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+
+
+
+
+canBypassXWayland() average duration:0.80ms,          	
+min duration jitter:-0.93ms,          	
+max duration jitter:0.38ms
+
+
+
+
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.29ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.28ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.27ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.14ms
+canBypassXWayland(): 0.12ms
+canBypassXWayland(): 0.12ms
+canBypassXWayland(): 0.13ms
+canBypassXWayland(): 0.13ms
+canBypassXWayland(): 0.13ms
+canBypassXWayland(): 0.14ms
+canBypassXWayland(): 0.13ms
+canBypassXWayland(): 0.13ms
+canBypassXWayland(): 0.13ms
+canBypassXWayland(): 0.13ms
+canBypassXWayland(): 0.14ms
+
+
+
+
+canBypassXWayland() average duration:0.51ms,          	
+min duration jitter:-0.69ms,          	
+max duration jitter:0.56ms
+
+
+
+
+canBypassXWayland(): 0.13ms
+canBypassXWayland(): 0.14ms
+canBypassXWayland(): 0.13ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 1.00ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.83ms
+
+
+
+
+canBypassXWayland() average duration:0.78ms,          	
+min duration jitter:-0.48ms,          	
+max duration jitter:0.59ms
+
+
+
+
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.28ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 1.08ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.69ms
+
+
+
+
+canBypassXWayland() average duration:0.76ms,          	
+min duration jitter:-0.44ms,          	
+max duration jitter:0.55ms
+
+
+
+
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 1.83ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 1.61ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.82ms
+
+
+
+
+canBypassXWayland() average duration:0.82ms,          	
+min duration jitter:-1.05ms,          	
+max duration jitter:1.22ms
+
+
+
+
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.31ms
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.26ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.80ms
+
+
+
+
+canBypassXWayland() average duration:0.72ms,          	
+min duration jitter:-0.68ms,          	
+max duration jitter:0.62ms
+
+
+
+
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.73ms
+
+
+
+
+canBypassXWayland() average duration:0.65ms,          	
+min duration jitter:-0.37ms,          	
+max duration jitter:0.52ms
+
+
+
+
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.96ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 1.44ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 1.05ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.93ms
+
+
+
+
+canBypassXWayland() average duration:0.76ms,          	
+min duration jitter:-1.00ms,          	
+max duration jitter:1.02ms
+
+
+
+
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.51ms
+
+
+
+
+canBypassXWayland() average duration:0.73ms,          	
+min duration jitter:-0.55ms,          	
+max duration jitter:0.30ms
+
+
+
+
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.15ms
+canBypassXWayland(): 0.17ms
+canBypassXWayland(): 0.16ms
+canBypassXWayland(): 0.17ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.84ms
+
+
+
+
+canBypassXWayland() average duration:0.54ms,          	
+min duration jitter:-0.61ms,          	
+max duration jitter:0.50ms
+
+
+
+
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.87ms
+
+
+
+
+canBypassXWayland() average duration:0.82ms,          	
+min duration jitter:-0.33ms,          	
+max duration jitter:0.32ms
+
+
+
+
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.96ms
+canBypassXWayland(): 0.98ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.86ms
+
+
+
+
+canBypassXWayland() average duration:0.80ms,          	
+min duration jitter:-0.49ms,          	
+max duration jitter:0.54ms
+
+
+
+
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.99ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 1.04ms
+canBypassXWayland(): 0.22ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+
+
+
+
+canBypassXWayland() average duration:0.82ms,          	
+min duration jitter:-0.82ms,          	
+max duration jitter:0.64ms
+
+
+
+
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.97ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.83ms
+
+
+
+
+canBypassXWayland() average duration:0.83ms,          	
+min duration jitter:-0.12ms,          	
+max duration jitter:0.28ms
+
+
+
+
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.22ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.18ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.44ms
+
+
+
+
+canBypassXWayland() average duration:0.79ms,          	
+min duration jitter:-0.71ms,          	
+max duration jitter:0.68ms
+
+
+
+
+canBypassXWayland(): 0.13ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 1.37ms
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.28ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.31ms
+canBypassXWayland(): 0.44ms
+
+
+
+
+canBypassXWayland() average duration:0.68ms,          	
+min duration jitter:-1.07ms,          	
+max duration jitter:0.68ms
+
+
+
+
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 1.31ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.68ms
+
+
+
+
+canBypassXWayland() average duration:0.69ms,          	
+min duration jitter:-0.85ms,          	
+max duration jitter:0.74ms
+
+
+
+
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 1.41ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 1.43ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 1.57ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+
+
+
+
+canBypassXWayland() average duration:0.83ms,          	
+min duration jitter:-1.07ms,          	
+max duration jitter:0.84ms
+
+
+
+
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+
+
+
+
+canBypassXWayland() average duration:0.83ms,          	
+min duration jitter:-0.12ms,          	
+max duration jitter:0.07ms
+
+
+
+
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.56ms
+canBypassXWayland(): 0.28ms
+canBypassXWayland(): 0.28ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.28ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 1.04ms
+canBypassXWayland(): 0.27ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.29ms
+canBypassXWayland(): 0.31ms
+canBypassXWayland(): 0.29ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.31ms
+
+
+
+
+canBypassXWayland() average duration:0.60ms,          	
+min duration jitter:-0.76ms,          	
+max duration jitter:0.72ms
+
+
+
+
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.56ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.31ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.39ms
+
+
+
+
+canBypassXWayland() average duration:0.52ms,          	
+min duration jitter:-0.37ms,          	
+max duration jitter:0.27ms
+
+
+
+
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.98ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.91ms
+
+
+
+
+canBypassXWayland() average duration:0.79ms,          	
+min duration jitter:-0.23ms,          	
+max duration jitter:0.46ms
+
+
+
+
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.97ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 1.09ms
+
+
+
+
+canBypassXWayland() average duration:0.86ms,          	
+min duration jitter:-0.45ms,          	
+max duration jitter:0.62ms
+
+
+
+
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.89ms
+
+
+
+
+canBypassXWayland() average duration:0.84ms,          	
+min duration jitter:-0.07ms,          	
+max duration jitter:0.13ms
+
+
+
+
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.80ms
+
+
+
+
+canBypassXWayland() average duration:0.80ms,          	
+min duration jitter:-0.09ms,          	
+max duration jitter:0.08ms
+
+
+
+
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 1.18ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+
+
+
+
+canBypassXWayland() average duration:0.67ms,          	
+min duration jitter:-0.73ms,          	
+max duration jitter:0.49ms
+
+
+
+
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.27ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.27ms
+canBypassXWayland(): 0.23ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.24ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 1.06ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.29ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.23ms
+
+
+
+
+canBypassXWayland() average duration:0.52ms,          	
+min duration jitter:-0.59ms,          	
+max duration jitter:0.61ms
+
+
+
+
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.96ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.94ms
+
+
+
+
+canBypassXWayland() average duration:0.84ms,          	
+min duration jitter:-0.15ms,          	
+max duration jitter:0.51ms
+
+
+
+
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 1.35ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 1.08ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.26ms
+
+
+
+
+canBypassXWayland() average duration:0.73ms,          	
+min duration jitter:-0.60ms,          	
+max duration jitter:0.83ms
+
+
+
+
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 1.37ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.72ms
+
+
+
+
+canBypassXWayland() average duration:0.78ms,          	
+min duration jitter:-0.72ms,          	
+max duration jitter:0.58ms
+
+
+
+
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 1.54ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.99ms
+canBypassXWayland(): 1.62ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 1.67ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 1.21ms
+canBypassXWayland(): 0.27ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.31ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 1.52ms
+canBypassXWayland(): 0.56ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.72ms
+
+
+
+
+canBypassXWayland() average duration:0.76ms,          	
+min duration jitter:-0.97ms,          	
+max duration jitter:1.15ms
+
+
+
+
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.23ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.51ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.56ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.28ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.68ms
+
+
+
+
+canBypassXWayland() average duration:0.57ms,          	
+min duration jitter:-0.34ms,          	
+max duration jitter:0.30ms
+
+
+
+
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.65ms
+
+
+
+
+canBypassXWayland() average duration:0.63ms,          	
+min duration jitter:-0.46ms,          	
+max duration jitter:0.42ms
+
+
+
+
+canBypassXWayland(): 1.24ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.29ms
+canBypassXWayland(): 0.27ms
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.31ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 1.72ms
+canBypassXWayland(): 0.58ms
+
+
+
+
+canBypassXWayland() average duration:0.55ms,          	
+min duration jitter:-1.14ms,          	
+max duration jitter:0.88ms
+
+
+
+
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 1.69ms
+canBypassXWayland(): 0.26ms
+canBypassXWayland(): 0.26ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.38ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.24ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.58ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.83ms
+
+
+
+
+canBypassXWayland() average duration:0.56ms,          	
+min duration jitter:-1.44ms,          	
+max duration jitter:1.19ms
+
+
+
+
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.31ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.79ms
+
+
+
+
+canBypassXWayland() average duration:0.68ms,          	
+min duration jitter:-0.14ms,          	
+max duration jitter:0.56ms
+
+
+
+
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.84ms
+
+
+
+
+canBypassXWayland() average duration:0.85ms,          	
+min duration jitter:-0.12ms,          	
+max duration jitter:0.13ms
+
+
+
+
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.80ms
+
+
+
+
+canBypassXWayland() average duration:0.86ms,          	
+min duration jitter:-0.06ms,          	
+max duration jitter:0.05ms
+
+
+
+
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.92ms
+
+
+
+
+canBypassXWayland() average duration:0.88ms,          	
+min duration jitter:-0.07ms,          	
+max duration jitter:0.48ms
+
+
+
+
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.84ms
+
+
+
+
+canBypassXWayland() average duration:0.90ms,          	
+min duration jitter:-0.07ms,          	
+max duration jitter:0.05ms
+
+
+
+
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.65ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.24ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.24ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.67ms
+
+
+
+
+canBypassXWayland() average duration:0.70ms,          	
+min duration jitter:-0.25ms,          	
+max duration jitter:0.44ms
+
+
+
+
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.55ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+
+
+
+
+canBypassXWayland() average duration:0.79ms,          	
+min duration jitter:-0.29ms,          	
+max duration jitter:0.25ms
+
+
+
+
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.78ms
+
+
+
+
+canBypassXWayland() average duration:0.82ms,          	
+min duration jitter:-0.08ms,          	
+max duration jitter:0.08ms
+
+
+
+
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.87ms
+
+
+
+
+canBypassXWayland() average duration:0.83ms,          	
+min duration jitter:-0.09ms,          	
+max duration jitter:0.08ms
+
+
+
+
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.85ms
+
+
+
+
+canBypassXWayland() average duration:0.81ms,          	
+min duration jitter:-0.22ms,          	
+max duration jitter:0.20ms
+
+
+
+
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.84ms
+
+
+
+
+canBypassXWayland() average duration:0.83ms,          	
+min duration jitter:-0.07ms,          	
+max duration jitter:0.07ms
+
+
+
+
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.96ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.85ms
+
+
+
+
+canBypassXWayland() average duration:0.76ms,          	
+min duration jitter:-0.37ms,          	
+max duration jitter:0.38ms
+
+
+
+
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.40ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.87ms
+
+
+
+
+canBypassXWayland() average duration:0.83ms,          	
+min duration jitter:-0.50ms,          	
+max duration jitter:0.43ms
+
+
+
+
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.27ms
+canBypassXWayland(): 0.28ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+
+
+
+
+canBypassXWayland() average duration:0.80ms,          	
+min duration jitter:-0.48ms,          	
+max duration jitter:0.48ms
+
+
+
+
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.88ms
+
+
+
+
+canBypassXWayland() average duration:0.85ms,          	
+min duration jitter:-0.07ms,          	
+max duration jitter:0.10ms
+
+
+
+
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.72ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.56ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.42ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.43ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.97ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.90ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.98ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 1.34ms
+canBypassXWayland(): 0.36ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.38ms
+
+
+
+
+canBypassXWayland() average duration:0.73ms,          	
+min duration jitter:-0.98ms,          	
+max duration jitter:0.65ms
+
+
+
+
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 1.43ms
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.56ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 0.64ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 1.75ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 1.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+
+
+
+
+canBypassXWayland() average duration:0.73ms,          	
+min duration jitter:-1.10ms,          	
+max duration jitter:1.11ms
+
+
+
+
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.50ms
+canBypassXWayland(): 0.37ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.47ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.55ms
+canBypassXWayland(): 1.03ms
+canBypassXWayland(): 0.97ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.98ms
+canBypassXWayland(): 0.95ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+
+
+
+
+canBypassXWayland() average duration:0.73ms,          	
+min duration jitter:-0.34ms,          	
+max duration jitter:0.48ms
+
+
+
+
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.63ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.98ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.84ms
+
+
+
+
+canBypassXWayland() average duration:0.83ms,          	
+min duration jitter:-0.18ms,          	
+max duration jitter:0.15ms
+
+
+
+
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.82ms
+
+
+
+
+canBypassXWayland() average duration:0.65ms,          	
+min duration jitter:-0.48ms,          	
+max duration jitter:0.50ms
+
+
+
+
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.35ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.81ms
+
+
+
+
+canBypassXWayland() average duration:0.75ms,          	
+min duration jitter:-0.25ms,          	
+max duration jitter:0.46ms
+
+
+
+
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.60ms
+canBypassXWayland(): 0.54ms
+canBypassXWayland(): 0.57ms
+canBypassXWayland(): 0.44ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.32ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.34ms
+canBypassXWayland(): 0.33ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.66ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.74ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.62ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.78ms
+
+
+
+
+canBypassXWayland() average duration:0.67ms,          	
+min duration jitter:-0.18ms,          	
+max duration jitter:0.56ms
+
+
+
+
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.71ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 1.66ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+
+
+
+
+canBypassXWayland() average duration:0.84ms,          	
+min duration jitter:-0.93ms,          	
+max duration jitter:0.84ms
+
+
+
+
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.77ms
+canBypassXWayland(): 0.59ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.45ms
+canBypassXWayland(): 0.56ms
+canBypassXWayland(): 0.41ms
+canBypassXWayland(): 1.62ms
+canBypassXWayland(): 0.52ms
+canBypassXWayland(): 0.67ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.46ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.68ms
+canBypassXWayland(): 0.70ms
+canBypassXWayland(): 0.69ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.53ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 1.22ms
+canBypassXWayland(): 0.39ms
+canBypassXWayland(): 0.48ms
+canBypassXWayland(): 0.29ms
+canBypassXWayland(): 0.37ms
+
+
+
+
+canBypassXWayland() average duration:0.68ms,          	
+min duration jitter:-1.10ms,          	
+max duration jitter:1.21ms
+
+
+
+
+canBypassXWayland(): 0.30ms
+canBypassXWayland(): 0.18ms
+canBypassXWayland(): 0.49ms
+canBypassXWayland(): 0.73ms
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.61ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.92ms
+canBypassXWayland(): 0.88ms
+
+
+
+
+canBypassXWayland() average duration:0.79ms,          	
+min duration jitter:-0.19ms,          	
+max duration jitter:0.31ms
+
+
+
+
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.93ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.94ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.91ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.89ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.88ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.96ms
+canBypassXWayland(): 0.81ms
+canBypassXWayland(): 0.75ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.78ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.78ms
+
+
+
+
+canBypassXWayland() average duration:0.84ms,          	
+min duration jitter:-0.15ms,          	
+max duration jitter:0.18ms
+
+
+
+
+canBypassXWayland(): 0.76ms
+canBypassXWayland(): 0.79ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.84ms
+canBypassXWayland(): 0.85ms
+canBypassXWayland(): 0.86ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.80ms
+canBypassXWayland(): 0.83ms
+canBypassXWayland(): 0.87ms
+canBypassXWayland(): 0.82ms
+canBypassXWayland(): 0.82ms
+gamescope: children shut down!
+(EE) failed to read Wayland events: Broken pipe

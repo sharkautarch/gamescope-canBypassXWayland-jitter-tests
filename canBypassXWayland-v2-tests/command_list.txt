@@ -1,0 +1,2 @@
+gamescope_vkcube_60_nested_fps_canBypassXWayland-v2_duration
+	gamescope -r 60 -o 60 -- vkcube |& tee gamescope_vkcube_60_nested_fps_canBypassXWayland

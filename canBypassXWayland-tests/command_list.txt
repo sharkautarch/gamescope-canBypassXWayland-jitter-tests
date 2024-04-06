@@ -1,0 +1,14 @@
+gamescope_vkcube_1000_nested_fps_immediate_present_mode_canBypassXWayland_duration
+	MESA_VK_WSI_PRESENT_MODE=immediate gamescope -r 1000 -o 1000 -- vkcube |& tee gamescope_vkcube_1000_nested_fps_immediate_present_mode_canBypassXWayland_duration
+
+gamescope_vkcube_60_nested_fps_canBypassXWayland_duration
+	gamescope -r 60 -o 60 -- vkcube |& tee gamescope_vkcube_60_nested_fps_canBypassXWayland_duration
+	
+gamescope_vkcube_30_nested_fps_canBypassXWayland_duration
+	gamescope -r 30 -o 30 -- vkcube |& tee gamescope_vkcube_30_nested_fps_canBypassXWayland_duration
+
+gamescope_vkcube_15_nested_fps_canBypassXWayland_duration
+	gamescope -r 15 -o 15 -- vkcube |& tee gamescope_vkcube_15_nested_fps_canBypassXWayland_duration
+	
+gamescope_vkmark_canBypassXWayland_duration
+	gamescope -- vkmark |& tee gamescope_vkmark_canBypassXWayland_duration
