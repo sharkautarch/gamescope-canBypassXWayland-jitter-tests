@@ -1,0 +1,1 @@
+# gamescope-canBypassXWayland-jitter-tests
