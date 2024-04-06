@@ -1,3 +1,4 @@
+# Modified version of archlinux repo gamescope PKGBUILD file - sharkautarch
 # Maintainer: Maxime Gauduin <alucryd@archlinux.org>
 # Maintainer: Giancarlo Razzolini <grazzolini@archlinux.org>
 # Contributor: Samuel "scrufulufugus" Monson <smonson@irbash.net>
